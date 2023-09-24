@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="robshopkeeper.png">
+<SubTexture name="idle0000" x="844" y="0" width="844" height="390" frameX="-22" frameY="-53" frameWidth="951" frameHeight="459" />
+<SubTexture name="idle0001" x="0" y="0" width="844" height="391" frameX="-22" frameY="-52" frameWidth="951" frameHeight="459" />
+<SubTexture name="idle0002" x="0" y="391" width="844" height="391" frameX="-22" frameY="-52" frameWidth="951" frameHeight="459" />
+<SubTexture name="idle0003" x="0" y="0" width="844" height="391" frameX="-22" frameY="-52" frameWidth="951" frameHeight="459" />
+<SubTexture name="idle0004" x="844" y="0" width="844" height="390" frameX="-22" frameY="-53" frameWidth="951" frameHeight="459" />
+<SubTexture name="idle0005" x="844" y="390" width="844" height="389" frameX="-22" frameY="-54" frameWidth="951" frameHeight="459" />
+</TextureAtlas>

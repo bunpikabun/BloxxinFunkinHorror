@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="oofexe.png">
+<SubTexture name="down0000" x="0" y="273" width="204" height="226" frameX="-186" frameY="-252" frameWidth="630" frameHeight="630" />
+<SubTexture name="down0001" x="204" y="273" width="200" height="225" frameX="-187" frameY="-243" frameWidth="630" frameHeight="630" />
+<SubTexture name="idle0000" x="190" y="499" width="187" height="204" frameX="-162" frameY="-232" frameWidth="630" frameHeight="630" />
+<SubTexture name="idle0001" x="404" y="273" width="195" height="206" frameX="-165" frameY="-226" frameWidth="630" frameHeight="630" />
+<SubTexture name="idle0002" x="0" y="499" width="190" height="205" frameX="-176" frameY="-217" frameWidth="630" frameHeight="630" />
+<SubTexture name="idle0003" x="377" y="499" width="187" height="203" frameX="-184" frameY="-215" frameWidth="630" frameHeight="630" />
+<SubTexture name="idle0004" x="564" y="499" width="181" height="200" frameX="-191" frameY="-215" frameWidth="630" frameHeight="630" />
+<SubTexture name="left0000" x="771" y="0" width="174" height="180" frameX="-136" frameY="-231" frameWidth="630" frameHeight="630" />
+<SubTexture name="left0001" x="771" y="180" width="173" height="177" frameX="-142" frameY="-226" frameWidth="630" frameHeight="630" />
+<SubTexture name="right0000" x="0" y="0" width="134" height="273" frameX="-297" frameY="-181" frameWidth="630" frameHeight="630" />
+<SubTexture name="right0001" x="134" y="0" width="131" height="265" frameX="-290" frameY="-185" frameWidth="630" frameHeight="630" />
+<SubTexture name="up0000" x="265" y="0" width="250" height="246" frameX="-161" frameY="-96" frameWidth="630" frameHeight="630" />
+<SubTexture name="up0001" x="515" y="0" width="256" height="244" frameX="-158" frameY="-102" frameWidth="630" frameHeight="630" />
+</TextureAtlas>

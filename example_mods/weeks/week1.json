@@ -1,0 +1,41 @@
+{
+	"storyName": "April Fools",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "catalog",
+	"weekBefore": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Proveit",
+			"guest666",
+			[
+				86,
+				80,
+				135
+			]
+		],
+		[
+			"Deadline",
+			"johndoe",
+			[
+				86,
+				80,
+				135
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "April Fools"
+}

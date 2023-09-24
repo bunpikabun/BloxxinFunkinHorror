@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="menu_story_mode.png">
+<SubTexture name="idle0000" x="0" y="0" width="937" height="633" frameX="-151" frameY="-50" frameWidth="1280" frameHeight="720" />
+<SubTexture name="idle0001" x="1874" y="0" width="945" height="630" frameX="-148" frameY="-53" frameWidth="1280" frameHeight="720" />
+<SubTexture name="idle0002" x="937" y="633" width="937" height="631" frameX="-151" frameY="-52" frameWidth="1280" frameHeight="720" />
+<SubTexture name="idle0003" x="0" y="633" width="937" height="632" frameX="-151" frameY="-51" frameWidth="1280" frameHeight="720" />
+<SubTexture name="selected0000" x="937" y="0" width="937" height="633" frameX="-151" frameY="-50" frameWidth="1280" frameHeight="720" />
+</TextureAtlas>

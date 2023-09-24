@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="robloxgf.png">
+<SubTexture name="left0000" x="1818" y="0" width="443" height="444" frameX="-5" frameY="-40" frameWidth="501" frameHeight="503" />
+<SubTexture name="left0001" x="1069" y="0" width="383" height="464" frameX="-58" frameY="-19" frameWidth="501" frameHeight="503" />
+<SubTexture name="left0002" x="701" y="0" width="368" height="471" frameX="-67" frameY="-13" frameWidth="501" frameHeight="503" />
+<SubTexture name="left0003" x="0" y="474" width="365" height="471" frameX="-68" frameY="-12" frameWidth="501" frameHeight="503" />
+<SubTexture name="left0004" x="334" y="0" width="367" height="472" frameX="-67" frameY="-11" frameWidth="501" frameHeight="503" />
+<SubTexture name="left0005" x="365" y="474" width="369" height="471" frameX="-65" frameY="-12" frameWidth="501" frameHeight="503" />
+<SubTexture name="left0006" x="0" y="945" width="387" height="463" frameX="-47" frameY="-20" frameWidth="501" frameHeight="503" />
+<SubTexture name="right0000" x="1818" y="444" width="313" height="429" frameX="-146" frameY="-56" frameWidth="501" frameHeight="503" />
+<SubTexture name="right0001" x="1452" y="449" width="331" height="448" frameX="-124" frameY="-34" frameWidth="501" frameHeight="503" />
+<SubTexture name="right0002" x="387" y="945" width="361" height="450" frameX="-91" frameY="-32" frameWidth="501" frameHeight="503" />
+<SubTexture name="right0003" x="748" y="945" width="367" height="449" frameX="-83" frameY="-33" frameWidth="501" frameHeight="503" />
+<SubTexture name="right0004" x="1452" y="0" width="366" height="449" frameX="-83" frameY="-33" frameWidth="501" frameHeight="503" />
+<SubTexture name="right0005" x="1069" y="464" width="356" height="456" frameX="-93" frameY="-26" frameWidth="501" frameHeight="503" />
+<SubTexture name="right0006" x="0" y="0" width="334" height="474" frameX="-115" frameY="-8" frameWidth="501" frameHeight="503" />
+</TextureAtlas>

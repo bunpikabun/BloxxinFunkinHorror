@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="logo.png">
+<SubTexture name="bop0000" x="900" y="0" width="405" height="306" frameX="-112" frameY="-162" frameWidth="630" frameHeight="630" />
+<SubTexture name="bop0001" x="443" y="340" width="431" height="324" frameX="-99" frameY="-153" frameWidth="630" frameHeight="630" />
+<SubTexture name="bop0002" x="0" y="340" width="443" height="335" frameX="-93" frameY="-148" frameWidth="630" frameHeight="630" />
+<SubTexture name="bop0003" x="0" y="0" width="451" height="340" frameX="-89" frameY="-145" frameWidth="630" frameHeight="630" />
+<SubTexture name="bop0004" x="451" y="0" width="449" height="338" frameX="-90" frameY="-146" frameWidth="630" frameHeight="630" />
+</TextureAtlas>
