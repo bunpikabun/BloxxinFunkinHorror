@@ -48,19 +48,7 @@ class FreeplayState extends MusicBeatState
 	var intendedColor:Int;
 	var colorTween:FlxTween;
 
-	var image0:FlxSprite;
-	var image1:FlxSprite;
-	var image2:FlxSprite;
-	var image2butBreach:FlxSprite;
-	var image3:FlxSprite;
-	var image4:FlxSprite;
-	var image5:FlxSprite;
-	var image6:FlxSprite;
-	var image7:FlxSprite;
-	var image8:FlxSprite;
-	var image9:FlxSprite;
-	var image10:FlxSprite;
-	var image12:FlxSprite;
+	var FreeplayImages:FlxTypedGroup<FlxSprite> = new FlxTypedGroup<FlxSprite>();
 
 	override function create()
 	{
@@ -118,75 +106,31 @@ class FreeplayState extends MusicBeatState
 		add(bg);
 		bg.screenCenter();
 
-		image0 = new FlxSprite().loadGraphic(Paths.image('freeplayportraits/Guest'));
-		image0.scrollFactor.set(0, 0);
-		add(image0);
-		image0.screenCenter();
+		var TotVal:Int = 1;
+        var curVal:Int = -1;
 
-		image1 = new FlxSprite().loadGraphic(Paths.image('freeplayportraits/John'));
-		image1.scrollFactor.set(0, 0);
-		add(image1);
-		image1.screenCenter();
+		for (i in 0...WeekData.weeksList.length) {
+			var SothisDaWeek:WeekData = WeekData.weeksLoaded.get(WeekData.weeksList[i]);
+			for (j in 0...SothisDaWeek.songs.length)
+			{
+				TotVal += 1;
+                if (curVal <= TotVal)
+				{
+					curVal += 1;
+				}
 
-		image2 = new FlxSprite().loadGraphic(Paths.image('freeplayportraits/C'));
-		image2.scrollFactor.set(0, 0);
-		add(image2);
-		image2.screenCenter();
+				var image:FlxSprite = new FlxSprite().loadGraphic(Paths.image('freeplayportraits/' + songs[curVal].songName));
+				image.scrollFactor.set(0, 0);
+				image.screenCenter();
+				FreeplayImages.add(image);
+			}
+		}
 
-		image2butBreach = new FlxSprite().loadGraphic(Paths.image('freeplayportraits/C'));
-		image2butBreach.scrollFactor.set(0, 0);
-		add(image2butBreach);
-		image2butBreach.screenCenter();
+		add(FreeplayImages);
 
-		image3 = new FlxSprite().loadGraphic(Paths.image('freeplayportraits/Oof'));
-		image3.scrollFactor.set(0, 0);
-		add(image3);
-		image3.screenCenter();
 
-		image4 = new FlxSprite().loadGraphic(Paths.image('freeplayportraits/Exploiter'));
-		image4.scrollFactor.set(0, 0);
-		add(image4);
-		image4.screenCenter();
 
-		image5 = new FlxSprite().loadGraphic(Paths.image('freeplayportraits/Jane'));
-		image5.scrollFactor.set(0, 0);
-		add(image5);
-		image5.screenCenter();
 
-		image6 = new FlxSprite().loadGraphic(Paths.image('freeplayportraits/1x1x1x1'));
-		image6.scrollFactor.set(0, 0);
-		add(image6);
-		image6.screenCenter();
-
-		image7 = new FlxSprite().loadGraphic(Paths.image('freeplayportraits/Jim'));
-		image7.scrollFactor.set(0, 0);
-		add(image7);
-		image7.screenCenter();
-
-		image8 = new FlxSprite().loadGraphic(Paths.image('freeplayportraits/Entities'));
-		image8.scrollFactor.set(0, 0);
-		add(image8);
-		image8.screenCenter();
-
-		image9 = new FlxSprite().loadGraphic(Paths.image('freeplayportraits/Jeff'));
-		image9.scrollFactor.set(0, 0);
-		add(image9);
-		image9.screenCenter();
-
-		image10 = new FlxSprite().loadGraphic(Paths.image('freeplayportraits/Catboys'));
-		image10.scrollFactor.set(0, 0);
-		add(image10);
-		image10.screenCenter();
-		
-	/*	image11 = new FlxSprite().loadGraphic(Paths.image('freeplayportraits/Michealp'));
-		image11.scrollFactor.set(0, 0);
-		add(image11);
-		image11.screenCenter(); */
-
-		image12 = new FlxSprite().loadGraphic(Paths.image('freeplayportraits/Gavin'));
-		image12.scrollFactor.set(0, 0);
-		add(image12);
-		image12.screenCenter();
 
 		grpSongs = new FlxTypedGroup<Alphabet>();
 		add(grpSongs);
@@ -342,19 +286,21 @@ class FreeplayState extends MusicBeatState
 			ratingSplit[1] += '0';
 		}
 
-		image0.alpha = FlxMath.lerp(image0.alpha, (curSelected == 0 ? 1 : 0), 0.4 * 60 * elapsed);
-		image1.alpha = FlxMath.lerp(image1.alpha, (curSelected == 1 ? 1 : 0), 0.4 * 60 * elapsed);
-		image2.alpha = FlxMath.lerp(image2.alpha, (curSelected == 2 ? 1 : 0), 0.4 * 60 * elapsed);
-		image2butBreach.alpha = FlxMath.lerp(image2butBreach.alpha, (curSelected == 3 ? 1 : 0), 0.4 * 60 * elapsed);
-		image3.alpha = FlxMath.lerp(image3.alpha, (curSelected == 4 ? 1 : 0), 0.4 * 60 * elapsed);
-		image4.alpha = FlxMath.lerp(image4.alpha, (curSelected == 5 ? 1 : 0), 0.4 * 60 * elapsed);
-		image5.alpha = FlxMath.lerp(image5.alpha, (curSelected == 6 ? 1 : 0), 0.4 * 60 * elapsed);
-		image6.alpha = FlxMath.lerp(image6.alpha, (curSelected == 7 ? 1 : 0), 0.4 * 60 * elapsed);
-		image7.alpha = FlxMath.lerp(image7.alpha, (curSelected == 8 ? 1 : 0), 0.4 * 60 * elapsed);
-		image8.alpha = FlxMath.lerp(image8.alpha, (curSelected == 9 ? 1 : 0), 0.4 * 60 * elapsed);
-		image9.alpha = FlxMath.lerp(image9.alpha, (curSelected == 10 ? 1 : 0), 0.4 * 60 * elapsed);
-		image10.alpha = FlxMath.lerp(image10.alpha, (curSelected == 11 ? 1 : 0), 0.4 * 60 * elapsed);
-		image12.alpha = FlxMath.lerp(image12.alpha, (curSelected == 12 ? 1 : 0), 0.4 * 60 * elapsed);
+
+		for (i in 0...FreeplayImages.length) {
+			var image:FlxSprite = FreeplayImages.members[i];
+			if (curSelected == i)
+            {
+				image.visible = true;
+				image.alpha = FlxMath.lerp(image.alpha, 1, 0.4 * 60 * elapsed);
+			}
+			else
+			{
+				image.visible = false;
+				image.alpha = FlxMath.lerp(image.alpha, 0, 0.4 * 60 * elapsed);
+			}
+		}
+
 
 		scoreText.text = 'PERSONAL BEST: ' + lerpScore + ' (' + ratingSplit.join('.') + '%)';
 		positionHighscore();

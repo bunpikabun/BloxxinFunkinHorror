@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bflegs.png">
+<SubTexture name="run0000" x="0" y="0" width="164" height="156" frameX="0" frameY="0" frameWidth="164" frameHeight="156" />
+<SubTexture name="run0001" x="164" y="0" width="164" height="156" frameX="0" frameY="0" frameWidth="164" frameHeight="156" />
+<SubTexture name="run0002" x="0" y="156" width="164" height="156" frameX="0" frameY="0" frameWidth="164" frameHeight="156" />
+<SubTexture name="run0003" x="164" y="156" width="164" height="156" frameX="0" frameY="0" frameWidth="164" frameHeight="156" />
+<SubTexture name="run0004" x="328" y="0" width="164" height="156" frameX="0" frameY="0" frameWidth="164" frameHeight="156" />
+<SubTexture name="run0005" x="328" y="156" width="164" height="156" frameX="0" frameY="0" frameWidth="164" frameHeight="156" />
+<SubTexture name="run0006" x="0" y="312" width="164" height="156" frameX="0" frameY="0" frameWidth="164" frameHeight="156" />
+<SubTexture name="run0007" x="164" y="312" width="164" height="156" frameX="0" frameY="0" frameWidth="164" frameHeight="156" />
+<SubTexture name="run0008" x="328" y="312" width="164" height="156" frameX="0" frameY="0" frameWidth="164" frameHeight="156" />
+<SubTexture name="run0009" x="492" y="0" width="164" height="156" frameX="0" frameY="0" frameWidth="164" frameHeight="156" />
+<SubTexture name="run0010" x="492" y="156" width="164" height="156" frameX="0" frameY="0" frameWidth="164" frameHeight="156" />
+<SubTexture name="run0011" x="492" y="312" width="164" height="156" frameX="0" frameY="0" frameWidth="164" frameHeight="156" />
+<SubTexture name="run0012" x="0" y="468" width="164" height="156" frameX="0" frameY="0" frameWidth="164" frameHeight="156" />
+<SubTexture name="run0013" x="164" y="468" width="164" height="156" frameX="0" frameY="0" frameWidth="164" frameHeight="156" />
+<SubTexture name="run0014" x="328" y="468" width="164" height="156" frameX="0" frameY="0" frameWidth="164" frameHeight="156" />
+<SubTexture name="run0015" x="492" y="468" width="164" height="156" frameX="0" frameY="0" frameWidth="164" frameHeight="156" />
+</TextureAtlas>

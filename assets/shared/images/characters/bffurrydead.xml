@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bffurrydead.png">
+<SubTexture name="firstDeath0000" x="0" y="0" width="197" height="193" frameX="-71" frameY="-44" frameWidth="302" frameHeight="241" />
+<SubTexture name="deathLoop0000" x="0" y="0" width="197" height="193" frameX="-71" frameY="-44" frameWidth="302" frameHeight="241" />
+<SubTexture name="deathLoop0001" x="0" y="0" width="197" height="193" frameX="-71" frameY="-44" frameWidth="302" frameHeight="241" />
+<SubTexture name="deathLoop0002" x="0" y="0" width="197" height="193" frameX="-71" frameY="-44" frameWidth="302" frameHeight="241" />
+<SubTexture name="deathLoop0003" x="0" y="0" width="197" height="193" frameX="-71" frameY="-44" frameWidth="302" frameHeight="241" />
+<SubTexture name="deathLoop0004" x="197" y="0" width="197" height="193" frameX="-71" frameY="-44" frameWidth="302" frameHeight="241" />
+<SubTexture name="deathLoop0005" x="0" y="193" width="197" height="193" frameX="-71" frameY="-44" frameWidth="302" frameHeight="241" />
+<SubTexture name="deathConfirm0000" x="0" y="0" width="197" height="193" frameX="-71" frameY="-44" frameWidth="302" frameHeight="241" />
+</TextureAtlas>

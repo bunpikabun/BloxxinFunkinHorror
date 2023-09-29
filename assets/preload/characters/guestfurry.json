@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 10,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 15,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-15
+			],
+			"anim": "singDOWN",
+			"fps": 15,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 15,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 15,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "sad",
+			"fps": 10,
+			"name": "sad",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/guestfurry",
+	"position": [
+		80,
+		320
+	],
+	"healthicon": "noobfurry",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		102,
+		143
+	],
+	"camera_position": [
+		-270,
+		-70
+	],
+	"sing_duration": 4.49999999999999,
+	"scale": 2.55
+}

@@ -1,0 +1,122 @@
+{
+	"storyName": "Freeplay",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Fools",
+			"fools",
+			[
+				0,
+				135,
+				0
+			]
+		],
+		[
+			"Breach",
+			"fools",
+			[
+				0,
+				135,
+				0
+			]
+		],
+		[
+			"Deformed",
+			"oofexe",
+			[
+				100,
+				0,
+				0
+			]
+		],
+		[
+			"Landmine",
+			"exploiter",
+			[
+				200,
+				120,
+				120
+			]
+		],
+		[
+			"Floatingpoint",
+			"janedoe",
+			[
+				0,
+				193,
+				255
+			]
+		],
+		[
+			"Copied",
+			"1x1x1x1",
+			[
+				100,
+				100,
+				100
+			]
+		],
+		[
+			"Stalked",
+			"threat",
+			[
+				95,
+				40,
+				40
+			]
+		],
+		[
+			"Kenophobia",
+			"a60",
+			[
+				40,
+				20,
+				20
+			]
+		],
+		[
+			"Blood",
+			"jeff",
+			[
+				175,
+				0,
+				0
+			]
+		],
+		[
+			"Catboy",
+			"noobfurry",
+			[
+				255,
+				133,
+				195
+			]
+		],
+		[
+			"Abandoned",
+			"gavin",
+			[
+				40,
+				40,
+				30
+			]
+		]
+	],
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Freeplay"
+}

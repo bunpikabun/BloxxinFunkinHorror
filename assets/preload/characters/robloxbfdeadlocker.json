@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "deathConfirm",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "firstDeath"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "deathLoop ",
+			"fps": 14,
+			"name": "deathLoop",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/robloxbfdeadlocker",
+	"position": [
+		-480,
+		150
+	],
+	"healthicon": "robloxbf",
+	"flip_x": true,
+	"healthbar_colors": [
+		73,
+		255,
+		255
+	],
+	"camera_position": [
+		60,
+		-50
+	],
+	"sing_duration": 5.99999999999999,
+	"scale": 1.05
+}

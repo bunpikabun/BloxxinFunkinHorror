@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="guestfurry.png">
+<SubTexture name="down0000" x="638" y="340" width="161" height="145" frameX="-45" frameY="-92" frameWidth="302" frameHeight="241" />
+<SubTexture name="down0001" x="638" y="187" width="156" height="153" frameX="-44" frameY="-84" frameWidth="302" frameHeight="241" />
+<SubTexture name="idle0000" x="638" y="0" width="177" height="187" frameX="-34" frameY="-54" frameWidth="302" frameHeight="241" />
+<SubTexture name="idle0001" x="0" y="636" width="181" height="175" frameX="-26" frameY="-66" frameWidth="302" frameHeight="241" />
+<SubTexture name="idle0002" x="143" y="236" width="172" height="199" frameX="-22" frameY="-42" frameWidth="302" frameHeight="241" />
+<SubTexture name="idle0003" x="477" y="198" width="149" height="197" frameX="-45" frameY="-44" frameWidth="302" frameHeight="241" />
+<SubTexture name="idle0004" x="0" y="439" width="148" height="197" frameX="-46" frameY="-44" frameWidth="302" frameHeight="241" />
+<SubTexture name="left0000" x="0" y="236" width="143" height="203" frameX="-57" frameY="-38" frameWidth="302" frameHeight="241" />
+<SubTexture name="left0001" x="335" y="0" width="142" height="204" frameX="-58" frameY="-37" frameWidth="302" frameHeight="241" />
+<SubTexture name="right0000" x="148" y="439" width="165" height="197" frameX="-54" frameY="-44" frameWidth="302" frameHeight="241" />
+<SubTexture name="right0001" x="315" y="236" width="160" height="198" frameX="-55" frameY="-42" frameWidth="302" frameHeight="241" />
+<SubTexture name="sad0000" x="477" y="0" width="161" height="198" frameX="-31" frameY="-43" frameWidth="302" frameHeight="241" />
+<SubTexture name="sad0001" x="313" y="439" width="161" height="197" frameX="-31" frameY="-44" frameWidth="302" frameHeight="241" />
+<SubTexture name="up0000" x="170" y="0" width="165" height="234" frameX="-50" frameY="-7" frameWidth="302" frameHeight="241" />
+<SubTexture name="up0001" x="0" y="0" width="170" height="236" frameX="-45" frameY="-5" frameWidth="302" frameHeight="241" />
+</TextureAtlas>

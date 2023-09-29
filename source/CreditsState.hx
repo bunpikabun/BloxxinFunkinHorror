@@ -109,6 +109,11 @@ class CreditsState extends MusicBeatState
 			['micheal p', 'michealp', 'Very special man who was special', null, 'FFFFFF']
 		];
 		
+        /*
+
+		*/
+
+
 		for(i in pisspoop){
 			creditsStuff.push(i);
 		}

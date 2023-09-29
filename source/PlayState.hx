@@ -4117,6 +4117,8 @@ class PlayState extends MusicBeatState
 		rating.visible = (!ClientPrefs.hideHud && showRating);
 		rating.x += ClientPrefs.comboOffset[0];
 		rating.y -= ClientPrefs.comboOffset[1];
+		rating.angularAcceleration = FlxG.random.float(-40, 40); 
+		rating.angularVelocity = FlxG.random.float(-25, 25);
 
 		var comboSpr:FlxSprite = new FlxSprite().loadGraphic(Paths.image(pixelShitPart1 + 'combo' + pixelShitPart2));
 		comboSpr.cameras = [camHUD];
@@ -4129,6 +4131,8 @@ class PlayState extends MusicBeatState
 		comboSpr.y -= ClientPrefs.comboOffset[1];
 		comboSpr.y += 60;
 		comboSpr.velocity.x += FlxG.random.int(1, 10) * playbackRate;
+		comboSpr.angularAcceleration = FlxG.random.float(-40, 40); 
+		comboSpr.angularVelocity = FlxG.random.float(-25, 25);
 
 		insert(members.indexOf(strumLineNotes), rating);
 		
@@ -4211,6 +4215,8 @@ class PlayState extends MusicBeatState
 			numScore.velocity.y -= FlxG.random.int(140, 160) * playbackRate;
 			numScore.velocity.x = FlxG.random.float(-5, 5) * playbackRate;
 			numScore.visible = !ClientPrefs.hideHud;
+			numScore.angularAcceleration = FlxG.random.float(-30, 30); 
+			numScore.angularVelocity = FlxG.random.float(-25, 25);
 
 			//if (combo >= 10 || combo == 0)
 			if(showComboNum)

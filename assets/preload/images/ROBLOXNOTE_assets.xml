@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ROBLOXNOTE_assets.png">
+<SubTexture name="blue0000" x="509" y="175" width="157" height="175"/>
+<SubTexture name="red0000" x="853" y="0" width="175" height="158"/>
+<SubTexture name="green0000" x="509" y="0" width="158" height="175"/>
+<SubTexture name="purple0000" x="542" y="545" width="175" height="158"/>
+<SubTexture name="down press0000" x="667" y="334" width="148" height="166" frameX="-19" frameY="-9" frameWidth="185" frameHeight="185" />
+<SubTexture name="right press0000" x="853" y="315" width="171" height="150" frameX="-7" frameY="-17" frameWidth="185" frameHeight="185" />
+<SubTexture name="left press0000" x="853" y="465" width="166" height="149" frameX="-10" frameY="-18" frameWidth="185" frameHeight="185" />
+<SubTexture name="up press0000" x="500" y="370" width="149" height="166" frameX="-18" frameY="-10" frameWidth="185" frameHeight="185" />
+<SubTexture name="right confirm0000" x="363" y="545" width="179" height="160" frameX="-7" frameY="-17" frameWidth="195" frameHeight="195" />
+<SubTexture name="right confirm0001" x="0" y="545" width="184" height="163" frameX="-6" frameY="-17" frameWidth="195" frameHeight="195" />
+<SubTexture name="right confirm0002" x="313" y="370" width="187" height="170" frameX="-7" frameY="-12" frameWidth="195" frameHeight="195" />
+<SubTexture name="left confirm0000" x="667" y="0" width="186" height="168" frameX="0" frameY="-14" frameWidth="195" frameHeight="195" />
+<SubTexture name="left confirm0001" x="667" y="168" width="184" height="166" frameX="-4" frameY="-14" frameWidth="195" frameHeight="195" />
+<SubTexture name="left confirm0002" x="184" y="545" width="179" height="160" frameX="-8" frameY="-17" frameWidth="195" frameHeight="195" />
+<SubTexture name="up confirm0000" x="166" y="186" width="160" height="179" frameX="-17" frameY="-8" frameWidth="195" frameHeight="195" />
+<SubTexture name="up confirm0001" x="0" y="0" width="170" height="186" frameX="-12" frameY="0" frameWidth="195" frameHeight="195" />
+<SubTexture name="up confirm0002" x="343" y="0" width="166" height="184" frameX="-14" frameY="-4" frameWidth="195" frameHeight="195" />
+<SubTexture name="down confirm0000" x="0" y="186" width="166" height="184" frameX="-14" frameY="-7" frameWidth="195" frameHeight="195" />
+<SubTexture name="down confirm0001" x="170" y="0" width="173" height="186" frameX="-9" frameY="-9" frameWidth="195" frameHeight="195" />
+<SubTexture name="down confirm0002" x="326" y="186" width="160" height="179" frameX="-17" frameY="-8" frameWidth="195" frameHeight="195" />
+<SubTexture name="arrowDOWN0000" x="0" y="370" width="156" height="175" frameX="-19" frameY="-9" frameWidth="193" frameHeight="193" />
+<SubTexture name="arrowRIGHT0000" x="0" y="708" width="179" height="158" frameX="-7" frameY="-17" frameWidth="193" frameHeight="193" />
+<SubTexture name="arrowLEFT0000" x="853" y="158" width="175" height="157" frameX="-9" frameY="-18" frameWidth="193" frameHeight="193" />
+<SubTexture name="arrowUP0000" x="156" y="370" width="157" height="175" frameX="-18" frameY="-9" frameWidth="193" frameHeight="193" />
+<SubTexture name="green hold piece0000" x="853" y="614" width="38" height="52" frameX="0" frameY="0" frameWidth="38" frameHeight="52" />
+<SubTexture name="red hold piece0000" x="891" y="614" width="38" height="52" frameX="0" frameY="0" frameWidth="38" frameHeight="52" />
+<SubTexture name="purple hold piece0000" x="929" y="614" width="38" height="52" frameX="0" frameY="0" frameWidth="38" frameHeight="52" />
+<SubTexture name="blue hold piece0000" x="967" y="614" width="38" height="52" frameX="0" frameY="0" frameWidth="38" frameHeight="52" />
+<SubTexture name="green hold end0000" x="815" y="334" width="38" height="52" frameX="0" frameY="0" frameWidth="38" frameHeight="52" />
+<SubTexture name="blue hold end0000" x="815" y="386" width="38" height="52" frameX="0" frameY="0" frameWidth="38" frameHeight="52" />
+<SubTexture name="purple hold end0000" x="815" y="438" width="38" height="52" frameX="0" frameY="0" frameWidth="38" frameHeight="52" />
+<SubTexture name="red hold end0000" x="717" y="545" width="38" height="52" frameX="0" frameY="0" frameWidth="38" frameHeight="52" />
+</TextureAtlas>
