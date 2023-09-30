@@ -8,6 +8,8 @@ import lime.utils.Assets;
 import openfl.utils.Assets as OpenFlAssets;
 import haxe.Json;
 import haxe.format.JsonParser;
+import flixel.FlxG;
+import flixel.util.FlxSave;
 
 using StringTools;
 
@@ -33,6 +35,8 @@ class WeekData {
 	public static var weeksList:Array<String> = [];
 	public var folder:String = '';
 	
+    public static var playedFunny:Bool;
+
 	// JSON variables
 	public var songs:Array<Dynamic>;
 	public var weekCharacters:Array<String>;
@@ -201,6 +205,19 @@ class WeekData {
 				{
 					weeksLoaded.set(weekToCheck, weekFile);
 					weeksList.push(weekToCheck);
+				}else if ((!PlayState.isStoryMode && weekFile.hideFreeplay && weekFile.songs[0] == "[Succed,michealP,[86,80,135]]"))
+				{
+					if (playedFunny || FlxG.save.data.succedDone == true)
+					{
+						FlxG.save.data.succedDone = playedFunny;
+						FlxG.save.flush();
+						
+						weeksLoaded.set(weekToCheck, weekFile);
+						weeksList.push(weekToCheck);
+					}else
+					{
+
+					}
 				}
 			}
 		}

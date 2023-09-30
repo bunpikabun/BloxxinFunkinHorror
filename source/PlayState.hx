@@ -60,6 +60,8 @@ import StageData;
 import FunkinLua;
 import DialogueBoxPsych;
 import Conductor.Rating;
+import FreeplayState;
+import WeekData;
 
 #if !flash 
 import flixel.addons.display.FlxRuntimeShader;
@@ -324,6 +326,8 @@ class PlayState extends MusicBeatState
 	public static var lastCombo:FlxSprite;
 	// stores the last combo score objects in an array
 	public static var lastScore:Array<FlxSprite> = [];
+
+
 
 	override public function create()
 	{
@@ -3992,6 +3996,13 @@ class PlayState extends MusicBeatState
 				FlxG.sound.playMusic(Paths.music('freakyMenu'));
 				changedDifficulty = false;
 			}
+
+			if(!ClientPrefs.getGameplaySetting('practice', false) && !ClientPrefs.getGameplaySetting('botplay', false) && SONG.song == 'Succed') 
+			{
+				trace("Succed played :)");
+				WeekData.playedFunny = true;
+			}
+
 			transitioning = true;
 		}
 	}

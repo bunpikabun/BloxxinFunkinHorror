@@ -18,6 +18,7 @@ import lime.utils.Assets;
 import flixel.system.FlxSound;
 import openfl.utils.Assets as OpenFlAssets;
 import WeekData;
+
 #if MODS_ALLOWED
 import sys.FileSystem;
 #end
@@ -26,6 +27,7 @@ using StringTools;
 
 class FreeplayState extends MusicBeatState
 {
+
 	var songs:Array<SongMetadata> = [];
 
 	var selector:FlxText;
@@ -72,10 +74,11 @@ class FreeplayState extends MusicBeatState
 			var leChars:Array<String> = [];
 
 			for (j in 0...leWeek.songs.length)
-			{
-				leSongs.push(leWeek.songs[j][0]);
-				leChars.push(leWeek.songs[j][1]);
-			}
+				{
+					leSongs.push(leWeek.songs[j][0]);
+					leChars.push(leWeek.songs[j][1]);
+				}
+				
 
 			WeekData.setDirectoryFromWeek(leWeek);
 			for (song in leWeek.songs)
@@ -85,6 +88,7 @@ class FreeplayState extends MusicBeatState
 				{
 					colors = [146, 113, 253];
 				}
+	
 				addSong(song[0], i, song[1], FlxColor.fromRGB(colors[0], colors[1], colors[2]));
 			}
 		}
@@ -118,18 +122,16 @@ class FreeplayState extends MusicBeatState
 				{
 					curVal += 1;
 				}
-
+				
 				var image:FlxSprite = new FlxSprite().loadGraphic(Paths.image('freeplayportraits/' + songs[curVal].songName));
 				image.scrollFactor.set(0, 0);
 				image.screenCenter();
 				FreeplayImages.add(image);
 			}
+
 		}
 
 		add(FreeplayImages);
-
-
-
 
 
 		grpSongs = new FlxTypedGroup<Alphabet>();
